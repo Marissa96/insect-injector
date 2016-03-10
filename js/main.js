@@ -10,6 +10,17 @@ var insects = [
       eatsDung: false,
       eatsPlants: false,
     }
+  },
+  {
+    name: 'Dung Beetle',
+    img: 'dung-beetle.jpg',
+    family: 'Scarabidae',
+    size: '20-30',
+    food: {
+      eatsInsects: false,
+      eatsDung: true,
+      eatsPlants: false,
+    }
   }
 ];
 
